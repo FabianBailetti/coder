@@ -1,0 +1,11 @@
+@mixin propiedades {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.propiedadeshorarios {
+    @include propiedades()
+}
